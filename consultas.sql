@@ -10,7 +10,7 @@
  /*Deleta banco de dados*/
  drop database cadastro;
  
- /*Usa tabela*/
+ /*Usa tabela top*/
 use cadastro;
 
 drop database teste;
