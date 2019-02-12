@@ -13,34 +13,36 @@ public class Cedulas {
 		// TODO Auto-generated method stub
 		Scanner leitor = new Scanner(System.in);
 		
-		int a = leitor.nextInt();
+		int b = leitor.nextInt();
 
-		if(a > 0){
-			for(i = 0; i <= a; i++){
-				System.out.println(""+a);
+		int a;
+		if (a2 > 0) {
+			for (i = 0; i <= a2; i++) {
+				System.out.println("" + a2);
 				System.out.println(i);
-				System.out.println(a-100+" nota(s) de R$ 100,00");
-				
-				a = a / 100;
-				System.out.println(a-50+" nota(s) de R$ 50,00");
-				
-				a = a / 50;
-				System.out.println(a-20+" nota(s) de R$ 20,00");
+				System.out.println(a2 - 100 + " nota(s) de R$ 100,00");
 
-				a = a / 20;
+				int a2 = a;
+				a = a2 / 100;
+				System.out.println(a2 - 50 + " nota(s) de R$ 50,00");
 
-				System.out.println(a-10+" nota(s) de R$ 10,00");
+				a = a2 / 50;
+				System.out.println(a2 - 20 + " nota(s) de R$ 20,00");
 
-				a = a / 10;
+				a = a2 / 20;
 
-				System.out.println(a-5+" nota(s) de R$ 5,00");
+				System.out.println(a2 - 10 + " nota(s) de R$ 10,00");
 
-				a = a / 5;
+				a = a2 / 10;
 
-				System.out.println(a-2+" nota(s) de R$ 2,00");
+				System.out.println(a2 - 5 + " nota(s) de R$ 5,00");
 
-				a = a / 2;
-				System.out.println(a-1+" nota(s) de R$ 1,00");
+				a = a2 / 5;
+
+				System.out.println(a2 - 2 + " nota(s) de R$ 2,00");
+
+				a = a2 / 2;
+				System.out.println(a2 - 1 + " nota(s) de R$ 1,00");
 			}
 		} 
 	else{
